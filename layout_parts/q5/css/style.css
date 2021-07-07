@@ -2,4 +2,139 @@
 
 /* 回答はここに書いてね */
 
+.q5_content{
+  background-color: #ECF1F2;
+  width: 500px;
+  height: 500px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.one{
+  background-color: #ffefd3;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 40px;
+  left: 200px;
+  z-index: auto;
+  font-size: 30px;
+  text-align: center;
+  line-height: 100px;
+}
+
+.two{
+  background-color: #7084de;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 120px;
+  left: 280px;
+  z-index: 2;
+  font-size: 30px;
+  text-align: center;
+  line-height: 100px;
+}
+
+.three{
+  background-color: #d0ecea;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 200px;
+  left: 360px;
+  z-index: 3;
+  font-size: 30px;
+  text-align: center;
+  line-height: 100px;
+}
+
+.four{
+  background-color: #8b7a5e;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 280px;
+  left: 280px;
+  z-index: 4;
+  font-size: 30px;
+  text-align: center;
+  line-height: 100px;
+}
+
+.five{
+  background-color: #9fd6d2;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 360px;
+  left: 200px;
+  z-index: 5;
+  font-size: 30px;
+  text-align: center;
+  line-height: 100px;
+}
+
+.six{
+  background-color: #fffee4;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 280px;
+  left: 120px;
+  z-index: 6;
+  font-size: 30px;
+  text-align: center;
+  line-height: 100px;
+}
+
+.seven{
+  background-color: #deae70;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 200px;
+  left: 40px;
+  z-index: 7;
+  font-size: 30px;
+  text-align: center;
+  line-height: 100px;
+}
+
+.eight{
+  background-color: #de70cf;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 120px;
+  left: 120px;
+  z-index: 8;
+  font-size: 30px;
+  text-align: center;
+  line-height: 100px;
+}
+
+.nine{
+  background-color: #2b69a3;
+  width: 100px;
+  height: 100px;
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  font-size: 30px;
+  text-align: center;
+  line-height: 100px;
+}
+
+.eight::after{
+  position: absolute;
+  content: "";
+  background-color: #ffefd3;
+  width: 20px;
+  height: 20px;
+  left:80px;
+}
+
 /* 回答はここに書いてね */

@@ -2,4 +2,44 @@
 
 /* 回答はここに書いてね */
 
+.q2_content{
+  box-sizing: border-box;
+  background: #eff3f4;
+  width: 940px;
+  padding: 20px;
+  float: left;
+}
+
+.q2_page_top{
+  float: left;
+}
+
+.q2_image_left{
+  margin-right:20px;
+  margin-bottom: 10px;
+  float: left;
+}
+
+.q2_text_top{
+  font-size: 18px;
+  line-height: 22px;
+  word-break: break-all;
+}
+
+.q2_page_bottom{
+  float: left;
+}
+
+.q2_image_right{
+  margin-left: 20px;
+  margin-bottom: 10px;
+  float: right;
+}
+
+.q2_text_bottom{
+  font-size: 18px;
+  line-height: 22px;
+  word-break: break-all;
+}
+
 /* 回答はここに書いてね */
