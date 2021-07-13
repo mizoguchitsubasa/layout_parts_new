@@ -10,12 +10,18 @@
   margin: 0 auto;
 }
 
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
 .q2_image_left {
   margin: 0 20px 10px 0;
   float: left;
 }
 
-.q2_text_top {
+.q2_text {
   font-size: 18px;
   line-height: 22px;
   word-break: break-all;
@@ -24,12 +30,6 @@
 .q2_image_right {
   margin: 0 0 10px 20px;
   float: right;
-}
-
-.q2_text_bottom {
-  font-size: 18px;
-  line-height: 22px;
-  word-break: break-all;
 }
 
 /* 回答はここに書いてね */
