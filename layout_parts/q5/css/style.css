@@ -10,6 +10,10 @@
   left: 0;
   right: 0;
   margin: auto;
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
+  line-height: 100px;
 }
 
 .one{
@@ -19,10 +23,7 @@
   position: absolute;
   top: 40px;
   left: 200px;
-  z-index: auto;
-  font-size: 30px;
-  text-align: center;
-  line-height: 100px;
+  z-index: 1;
 }
 
 .two{
@@ -33,9 +34,6 @@
   top: 120px;
   left: 280px;
   z-index: 2;
-  font-size: 30px;
-  text-align: center;
-  line-height: 100px;
 }
 
 .three{
@@ -46,9 +44,6 @@
   top: 200px;
   left: 360px;
   z-index: 3;
-  font-size: 30px;
-  text-align: center;
-  line-height: 100px;
 }
 
 .four{
@@ -59,9 +54,6 @@
   top: 280px;
   left: 280px;
   z-index: 4;
-  font-size: 30px;
-  text-align: center;
-  line-height: 100px;
 }
 
 .five{
@@ -72,9 +64,6 @@
   top: 360px;
   left: 200px;
   z-index: 5;
-  font-size: 30px;
-  text-align: center;
-  line-height: 100px;
 }
 
 .six{
@@ -85,9 +74,6 @@
   top: 280px;
   left: 120px;
   z-index: 6;
-  font-size: 30px;
-  text-align: center;
-  line-height: 100px;
 }
 
 .seven{
@@ -98,9 +84,6 @@
   top: 200px;
   left: 40px;
   z-index: 7;
-  font-size: 30px;
-  text-align: center;
-  line-height: 100px;
 }
 
 .eight{
@@ -111,9 +94,6 @@
   top: 120px;
   left: 120px;
   z-index: 8;
-  font-size: 30px;
-  text-align: center;
-  line-height: 100px;
 }
 
 .nine{
@@ -123,9 +103,6 @@
   position: fixed;
   top: 10px;
   left: 10px;
-  font-size: 30px;
-  text-align: center;
-  line-height: 100px;
 }
 
 .eight::after{
@@ -134,7 +111,7 @@
   background-color: #ffefd3;
   width: 20px;
   height: 20px;
-  left:80px;
+  left: 80px;
 }
 
 /* 回答はここに書いてね */

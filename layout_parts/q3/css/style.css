@@ -5,37 +5,33 @@
 .q3_content_table{
   table-layout: fixed;
   width: 100%;
+}
+
+.q3_content_table th, td{
   border: solid #dedede 1px;
+  padding: 10px;
   text-align: center;
 }
 
 .q3_content_table th{
-  color: white;
-  border: solid #dedede 1px;
-  padding: 10px;
+  background: #2244aa;
+  color: #fff;
+  font-size: 18px;
+  line-height: 26px;
 }
 
 .q3_content_table td{
-  border: solid #dedede 1px;
-  padding: 10px;
+  color: #000;
+  font-size: 16px;
+  line-height: 22px;
 }
 
-.q3_content_table td:first-child{
-  background: #2244aa;
-  color: white;
-}
-
-.q3_content_table thead:first-child{
-  background: #2244aa;
-  color: white;
-}
-
-.q3_content_table tr:nth-child(2),.q3_content_table tr:nth-child(4){
+.q3_content_table tbody tr:nth-child(2n){
   background: #ecf1f2;
 }
 
-.q3_content_table tr:nth-child(4){
-  border-bottom: dashed #000 2px;
+.q3_content_table tfoot{
+  border-top: dashed #000 2px;
 }
 
 /* 回答はここに書いてね */
