@@ -2,55 +2,55 @@
 
 /* 回答はここに書いてね */
 
-.q6__box__common{
+.q6__box__common {
   width: 90px;
   background-color: #e6f2ff;
   padding: 10px 0;
 }
 
-.q6__box__text-align{
+.q6__box__text-align {
   text-align: center;
 }
 
-.q6__box__text-align__p{
+.q6__box__text-align__p {
   display: inline-block;
 }
 
-.q6__box__margin{
+.q6__box__margin {
   text-align: center;
   margin: 0 auto;
 }
 
-.q6--around--common{
+.q6--around--common {
   background-color: #fff;
   padding: 10px;
 }
 
-.q6--around--table{
+.q6--around--table {
   display: table;
   text-align: center;
 }
 
-.q6--around--table-cell{
+.q6--around--table-cell {
   display: table-cell;
   vertical-align: middle;
 }
 
-.q6--around--table-cell-p{
+.q6--around--table-cell-p {
   display: inline-block;
 }
 
-.q6--around--flex{
+.q6--around--flex {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.position-common{
+.position-common {
   position: relative;
 }
 
-.position-stable-p{
+.position-stable-p {
   position: absolute;
   top: 0;
   right: 0;
@@ -59,7 +59,7 @@
   margin: auto;
 }
 
-.position-flexible-p{
+.position-flexible-p {
   position: absolute;
   top: 50%;
   left: 50%;

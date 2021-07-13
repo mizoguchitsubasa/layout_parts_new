@@ -2,7 +2,7 @@
 
 /* 回答はここに書いてね */
 
-.q5_content{
+.q5_content {
   background-color: #ECF1F2;
   width: 500px;
   height: 500px;
@@ -10,102 +10,89 @@
   left: 0;
   right: 0;
   margin: auto;
+}
+
+.number__common{
+  width: 100px;
+  height: 100px;
   font-weight: bold;
   font-size: 30px;
   text-align: center;
   line-height: 100px;
 }
 
-.one{
+.one {
   background-color: #ffefd3;
-  width: 100px;
-  height: 100px;
   position: absolute;
   top: 40px;
   left: 200px;
   z-index: 1;
 }
 
-.two{
+.two {
   background-color: #7084de;
-  width: 100px;
-  height: 100px;
   position: absolute;
   top: 120px;
   left: 280px;
   z-index: 2;
 }
 
-.three{
+.three {
   background-color: #d0ecea;
-  width: 100px;
-  height: 100px;
   position: absolute;
   top: 200px;
   left: 360px;
   z-index: 3;
 }
 
-.four{
+.four {
   background-color: #8b7a5e;
-  width: 100px;
-  height: 100px;
   position: absolute;
   top: 280px;
   left: 280px;
   z-index: 4;
 }
 
-.five{
+.five {
   background-color: #9fd6d2;
-  width: 100px;
-  height: 100px;
   position: absolute;
   top: 360px;
   left: 200px;
   z-index: 5;
 }
 
-.six{
+.six {
   background-color: #fffee4;
-  width: 100px;
-  height: 100px;
   position: absolute;
   top: 280px;
   left: 120px;
   z-index: 6;
 }
 
-.seven{
+.seven {
   background-color: #deae70;
-  width: 100px;
-  height: 100px;
   position: absolute;
   top: 200px;
   left: 40px;
   z-index: 7;
 }
 
-.eight{
+.eight {
   background-color: #de70cf;
-  width: 100px;
-  height: 100px;
   position: absolute;
   top: 120px;
   left: 120px;
   z-index: 8;
 }
 
-.nine{
+.nine {
   background-color: #2b69a3;
-  width: 100px;
-  height: 100px;
   position: fixed;
   top: 10px;
   left: 10px;
 }
 
-.eight::after{
+.eight::after {
   position: absolute;
   content: "";
   background-color: #ffefd3;
