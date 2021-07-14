@@ -6,9 +6,7 @@
   background-color: #ECF1F2;
   width: 500px;
   height: 500px;
-  position: absolute;
-  left: 0;
-  right: 0;
+  position: relative;
   margin: auto;
 }
 
